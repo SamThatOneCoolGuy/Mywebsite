@@ -5,7 +5,21 @@ import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { Tools } from './pages/Tools'
 
+const UNDER_MAINTENANCE = true
+
+function MaintenanceScreen() {
+  return (
+    <div className="flex min-h-dvh items-center justify-center bg-zinc-950 text-zinc-100">
+      <p className="text-2xl font-medium">تحت الصيانة</p>
+    </div>
+  )
+}
+
 export default function App() {
+  if (UNDER_MAINTENANCE) {
+    return <MaintenanceScreen />
+  }
+
   return (
     <ThemeProvider>
       <BrowserRouter>
