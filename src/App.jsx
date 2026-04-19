@@ -5,7 +5,7 @@ import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { Tools } from './pages/Tools'
 
-const UNDER_MAINTENANCE = true
+const UNDER_MAINTENANCE = false
 
 function MaintenanceScreen() {
   return (
