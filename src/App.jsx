@@ -10,7 +10,7 @@ const UNDER_MAINTENANCE = true
 function MaintenanceScreen() {
   return (
     <div className="flex min-h-dvh items-center justify-center bg-zinc-950 text-zinc-100">
-      <p className="text-2xl font-medium">تحت الصيانة</p>
+      <p className="text-2xl font-medium">بيتم تحويل الموثع الا شي افضل ومحسن  April 30</p>
     </div>
   )
 }
